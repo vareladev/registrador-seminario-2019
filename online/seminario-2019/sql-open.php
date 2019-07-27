@@ -1,8 +1,8 @@
 <?php
-	$server_url = "localhost";
-	$usuario = "seminariousr";
-	$password = "ioJ37nXhfUWBYgnP";
-	$bd = "seminario_interno_2019";
+	$server_url = "";
+	$usuario = "";
+	$password = "";
+	$bd = "";
 	
 	$con =  new mysqli($server_url, $usuario, $password, $bd);
 	if (mysqli_connect_errno()) {
